@@ -14,7 +14,7 @@
 ### **使用 NFT Badge**
 你可以在 `README.md` 文件中 **添加以下代码**，在你的 GitHub 主页展示 **NFT 徽章**：
 ```md
-![NFT Badge](https://github-nft-fawn.vercel.app/api/nft-badge?address=你的钱包地址)
+![NFT Badge](https://github-nft-fawn.vercel.app/api/nft-badge?address= 你的erc20钱包地址 )
 ```
 就会有如下效果
 
