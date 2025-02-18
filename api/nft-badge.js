@@ -89,7 +89,8 @@ export default async function handler(req, res) {
       nftList = cacheData.nfts;
     }
 
-    const svg = generateNFTSVG(nftList, count);
+    const svg = await generateNFTSVG(nftList, count);
+    // console.log("svg",svg)
 
     res.setHeader('Content-Type', 'image/svg+xml');
     res.status(200).send(svg);
